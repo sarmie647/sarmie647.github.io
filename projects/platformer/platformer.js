@@ -20,6 +20,19 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
+    createPlatform(350, 250, 200, 20); 
+    createPlatform(700, 500, 200, 20);
+    createPlatform(200, 1050, 200, 20);
+    createPlatform(100, 500, 200, 20);
+    createPlatform(100, 700, 200, 20);
+    //create Collectibales
+    createCollectable("steve", 500, 300, 20, 0.5); 
+    createCollectable("grace", 500, 300); 
+    createCollectable("diamond", 500, 300);
+    //create Cannons
+    createCannons("left", 6, 10);
+
+
 
     /**
      * Uncomment the loops below to add a "grid" to your platformer game's screen
@@ -43,7 +56,7 @@ $(function () {
     // Create Platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    createPlatforms(350, 250, 200, 20); 
+    createPlatforms(1050, 750, 350, 375);
     createPlatforms(700, 500, 200, 20);
     createPlatforms(200, 1050, 200, 20);
     createPlatforms(100, 500, 200, 20);
