@@ -43,26 +43,34 @@ $(function () {
     // Create Platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    createPlatforms(500, 300, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatforms(350, 250, 200, 20); 
+    createPlatforms(700, 500, 200, 20);
+    createPlatforms(200, 1050, 200, 20);
+    createPlatforms(100, 500, 200, 20);
+    createPlatforms(100, 700, 200, 20);
 
 
-    
     // TODO 2
     // Creat Collectable
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
-    createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
-    createCollectable("diamond", 500, 300)
+    createCollectable("steve", 500, 300, 20, 0.5); 
+    createCollectable("grace", 500, 300); 
+    createCollectable("diamond", 500, 300);
 
     // TODO 3
-    // createCannons("left", 600, 1000); // cannon on left wall, 600px down, shooting once per second
+    // Create Cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
-
+    createCannons("left", 6, 10);
+    createCannons("left", 6, 10); 
+    createCannons("left", 6, 10); 
+    createCannons("left", 6, 10); 
+    createCannons("left", 6, 10); 
+    createCannons("left", 6, 10); 
+    createCannons("left", 6, 10);  
 
 
     /////////////////////////////////////////////////
