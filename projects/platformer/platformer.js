@@ -19,12 +19,12 @@ $(function () {
     createPlatform(-50, -50, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
-    createPlatform(canvas.width, -50, 50, canvas.height + 100);
-    createPlatform(350, 250, 200, 20); 
-    createPlatform(700, 500, 200, 20);
-    createPlatform(200, 1050, 200, 20);
-    createPlatform(100, 500, 200, 20);
-    createPlatform(100, 700, 200, 20);
+    createPlatform(canvas.width, -50, 50, canvas.height + 100); 
+    createPlatform(600, 600, 700, 250); 
+    createPlatform(200, 240, 200, 20); 
+    createPlatform(150, 360, 200, 20);
+    createPlatform(100, 480, 200, 20);
+    createPlatform(100, 600, 200, 250);
     //create Collectibales
     createCollectable("steve", 500, 300, 20, 0.5); 
     createCollectable("grace", 500, 300); 
