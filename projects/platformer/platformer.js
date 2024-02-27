@@ -25,12 +25,18 @@ $(function () {
     createPlatform(150, 360, 200, 20);
     createPlatform(100, 480, 200, 20);
     createPlatform(100, 600, 200, 250);
+    createPlatform(605, 480, 800, 20);
+    createPlatform(605, 360, 800, 20);
+    createPlatform(605, 240, 800, 20)
     //create Collectibales
-    createCollectable("steve", 500, 300, 20, 0.5); 
-    createCollectable("grace", 500, 300); 
-    createCollectable("diamond", 500, 300);
+    createCollectable("max", 485, 70); 
+    createCollectable("grace", 1070, 197); 
+    createCollectable("kennedi", 605, 317);
+    createCollectable("database", 1333, 700)
     //create Cannons
-    createCannons("left", 6, 10);
+    createCannon("bottom", 500, 1700, 20, 100);
+    createCannon("bottom", 400, 1700, 20, 100);
+    createCannon("right", 570, 5000, 20, 10)
 
 
 
